@@ -1,34 +1,85 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# POWERED HEROES
 
-## Getting Started
+**Deployed LINK :-**
 
-First, run the development server:
+## Video DEMO
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Link:- [Video Demo on Youtube]()
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Preview
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<img src="./public/pic5.png" alt="Pic5" style="height: 300px; width:200px;"/>
+<img src="./public/pic3.png" alt="Pic3" style="height: 300px; width:550px;"/>
+<img src="./public/pic2.png" alt="Pic2" style="height: 200px; width:200px;"/>
+<img src="./public/pic1.png" alt="Pic1" style="height: 200px; width:150px;"/>
+<img src="./public/pic4.png" alt="Pic4" style="height: 200px; width:800px;"/>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+---
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Built With
 
-## Learn More
+- [NextJS](https://nextjs.org/) - Web framework for React applications
+- [NFT Storage](https://nft.storage/) - Store images as IPFS hashes for use with NFTs
+- [NFT Port](https://nftport.xyz/) - Minting platform for Ethereum and Polygon networks
+- [Hugging Face](https://huggingface.co/models) - Diffusion model for generating AI art
+- [Tailwind Css](https://tailwindcss.com/)- Css Library with custom classes to style components
+- [Axios](https://axios-http.com/)-HTTP client for fetching data
+- [dotenv](https://www.npmjs.com/package/dotenv)-Dependency to load environment variables
+- [React Toastify](https://www.npmjs.com/package/react-toastify)-Package to create stylish toasts
 
-To learn more about Next.js, take a look at the following resources:
+## Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Generate AI art using Hugging Face's Diffusion model
+- Mint the generated art as an NFT on Polygon **WITHOUT GAS**
+- Add custom details to the NFT like name, description and wallet address
+- Check your minted NFT on OpenSea's private section
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## RUN ON YOUR LOCAL MACHINE
 
-## Deploy on Vercel
+Follow the Steps to run this app on your local machine.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone this repo
+   ```
+   git clone
+   ```
+2. Install all dependencies using npm or yarn
+   ```
+   npm i
+   ```
+   Or
+   ```
+   yarn
+   ```
+3. Create and Fill .env file. See .env.example for reference
+4. Run the app
+   ```
+   npm run dev
+   ```
+   OR
+   ```
+   yarn dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# About the Developer
+
+Hello everyone, myself **Mohammad Ayaan Siddiqui** from India. I am a Full Stack WEB3 developer and a **DECENTRALIZATION MAXI**. I talk about WEB3, Cryptocurrencies, Javascript and Python and currently learning web3.
+
+**Currently Learning and Building in React.js, Next.js, Solidity, Golang, Hardhat, Ethers.js, React Native, Tailwind, Html, CSS, Python, etc.**
+
+<p align="center">
+<img src="./public/profile.jpg" alt="profile" style="height: 400px; width:500px;"/>
+</p>
+
+If you are interested in either of the topics or building in similar skills, connect with me below:-
+
+1. ![Alt text](public/linktree.png "linktree") [My Linktree with ALL SOCIALS](https://linktr.ee/ayaaneth)
+
+2. ![Alt text](public/github.png "github") [Connect on Github](https://github.com/moayaan1911)
+
+3. ![Alt text](public/linkedin.png "linkedin") [Connect on Linkedin](www.linkedin.com/in/ayaaneth)
+
+4. ![Alt text](public/twitter.png "twitter") [Connect on Twitter](https://www.twitter.com/usdisshitcoin)
+
+5. ![Alt text](public/telegram.png "telegram") [Connect on Telegram](https://t.me/usdisshitcoin)
+
+6. ![Alt text](public/dev.png "dev") [Connect on dev.to](https://dev.to/moayaan1911)
