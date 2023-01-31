@@ -286,6 +286,8 @@ export default function Home() {
             <a
               className="text-gray-400 hover:text-white p-1"
               href="https://youtu.be/MZUSn3nxb3U"
+              target={"_blank"}
+              rel="noreferrer"
             >
               Video Demo <i class="fa-solid fa-video"></i>
             </a>
