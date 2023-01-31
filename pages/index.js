@@ -257,9 +257,6 @@ export default function Home() {
             </a>
           </h3>
 
-          <p className="text-white text-sm pt-3 pb-3 lg:block hidden">
-            Copyright &copy; {new Date().getFullYear()}
-          </p>
           <div className="flex space-x-3">
             <a
               className="text-gray-400 hover:text-white p-1"
@@ -269,6 +266,14 @@ export default function Home() {
             >
               <i class="fa-solid fa-bolt"></i> Connect with dev{" "}
               <i class="fa-solid fa-bolt"></i>
+            </a>
+            <a
+              className="text-gray-400 hover:text-white p-1 md:block block"
+              href=" https://forms.gle/MHY9vDk8r3Xw7qGP6"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              Feedback Form <i class="fa-solid fa-align-justify"></i>
             </a>
             <a
               className="text-gray-400 hover:text-white p-1 md:block hidden"
