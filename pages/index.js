@@ -272,7 +272,9 @@ export default function Home() {
             </a>
             <a
               className="text-gray-400 hover:text-white p-1 md:block hidden"
-              href="#"
+              href="https://github.com/moayaan1911/powered"
+              target={"_blank"}
+              rel="noreferrer"
             >
               Github repo <i class="fa-brands fa-github"></i>
             </a>
