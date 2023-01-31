@@ -1,10 +1,10 @@
 # POWERED HEROES
 
-**Deployed LINK :-**
+Deployed LINK :-https://powered-heroes.vercel.app/
 
 ## Video DEMO
 
-Link:- [Video Demo on Youtube]()
+Link:- [Video Demo on Youtube](https://youtu.be/MZUSn3nxb3U)
 
 ## Preview
 

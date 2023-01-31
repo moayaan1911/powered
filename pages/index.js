@@ -283,7 +283,10 @@ export default function Home() {
             >
               Github repo <i class="fa-brands fa-github"></i>
             </a>
-            <a className="text-gray-400 hover:text-white p-1" href="#">
+            <a
+              className="text-gray-400 hover:text-white p-1"
+              href="https://youtu.be/MZUSn3nxb3U"
+            >
               Video Demo <i class="fa-solid fa-video"></i>
             </a>
           </div>
