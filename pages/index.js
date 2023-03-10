@@ -6,10 +6,6 @@ import { NFTStorage } from "nft.storage";
 import { toast } from "react-toastify";
 const { Configuration, OpenAIApi } = require("openai");
 export default function Home() {
-  const configuration = new Configuration({
-    apiKey:"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",
-  });
-  const openai = new OpenAIApi(configuration);
   const [prompt, setPrompt] = useState("iron man");
   const [imageBlob, setImageBlob] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -96,39 +92,39 @@ export default function Home() {
       progress: undefined,
       theme: "dark",
     });
-    // try {
-    //   const response = await axios.post(
-    //     `https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5`,
-    //     {
-    //       headers: {
-    //         Authorization: `Bearer ${process.env.hugging_face_API}}`,
-    //       },
-    //       method: "POST",
-    //       inputs: prompt,
-    //     },
-    //     { responseType: "blob" }
-    //   );
-    //   // convert blob to a image file type
-    //   const file = new File([response.data], "image.png", {
-    //     type: "image/png",
-    //   });
-    //   // saving the file in a state
-    //   setFile(file);
-    //   const url = URL.createObjectURL(response.data);
-    //   // console.log(url)
-    //   console.log(url);
-    //   setImageBlob(url);
-    //   setLoading(false);
-    // } catch (err) {
-    //   console.log(err);
-    // }
-    const response = await openai.createImage({
-      prompt: prompt+" nft",
-      n: 1,
-      size: "256x256",
-    });
-    const image_url = response.data.data[0].url;
-    setImageBlob(image_url);
+    try {
+      const response = await axios.post(
+        `https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5`,
+        {
+          headers: {
+            Authorization: `Bearer ${process.env.hugging_face_API}}`,
+          },
+          method: "POST",
+          inputs: prompt,
+        },
+        { responseType: "blob" }
+      );
+      // convert blob to a image file type
+      const file = new File([response.data], "image.png", {
+        type: "image/png",
+      });
+      // saving the file in a state
+      setFile(file);
+      const url = URL.createObjectURL(response.data);
+      // console.log(url)
+      console.log(url);
+      setImageBlob(url);
+      setLoading(false);
+    } catch (err) {
+      console.log(err);
+    }
+  //   const response = await openai.createImage({
+  //     prompt: prompt+" nft",
+  //     n: 1,
+  //     size: "256x256",
+  //   });
+  //   const image_url = response.data.data[0].url;
+  //   setImageBlob(image_url);
   };
   return (
     <div>
