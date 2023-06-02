@@ -118,13 +118,13 @@ export default function Home() {
     } catch (err) {
       console.log(err);
     }
-  //   const response = await openai.createImage({
-  //     prompt: prompt+" nft",
-  //     n: 1,
-  //     size: "256x256",
-  //   });
-  //   const image_url = response.data.data[0].url;
-  //   setImageBlob(image_url);
+    //   const response = await openai.createImage({
+    //     prompt: prompt+" nft",
+    //     n: 1,
+    //     size: "256x256",
+    //   });
+    //   const image_url = response.data.data[0].url;
+    //   setImageBlob(image_url);
   };
   return (
     <div>
@@ -254,7 +254,7 @@ export default function Home() {
           <h3 className="text-white text-2xl font-medium ">
             Built by{" "}
             <a
-              href="https://app.ens.domains/name/moayaan.eth/details"
+              href="https://linktr.ee/ayaaneth"
               target={"_blank"}
               rel="noreferrer"
               className="text-white text-2xl font-medium underline"
@@ -266,31 +266,6 @@ export default function Home() {
           </h3>
 
           <div className="flex space-x-3">
-            <a
-              className="text-gray-400 hover:text-white p-1"
-              href="https://linktr.ee/ayaaneth"
-              target={"_blank"}
-              rel="noreferrer"
-            >
-              <i class="fa-solid fa-bolt"></i> Connect with dev{" "}
-              <i class="fa-solid fa-bolt"></i>
-            </a>
-            <a
-              className="text-gray-400 hover:text-white p-1 md:block block"
-              href=" https://forms.gle/MHY9vDk8r3Xw7qGP6"
-              target={"_blank"}
-              rel="noreferrer"
-            >
-              Feedback Form <i class="fa-solid fa-align-justify"></i>
-            </a>
-            <a
-              className="text-gray-400 hover:text-white p-1 md:block hidden"
-              href="https://github.com/moayaan1911/powered"
-              target={"_blank"}
-              rel="noreferrer"
-            >
-              Github repo <i class="fa-brands fa-github"></i>
-            </a>
             <a
               className="text-gray-400 hover:text-white p-1"
               href="https://youtu.be/MZUSn3nxb3U"
